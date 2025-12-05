@@ -1,0 +1,249 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{tonndorf-2015}{article}{}
+      \name{author}{10}{}{%
+        {{hash=bd9f51c332fb73a89a2037947b2eae9c}{%
+           family={Tonndorf},
+           familyi={T\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cd4eac548a4b55ebf9ef21b5cd97f0e6}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f4e3b669174599cb7a4ab9c160fead54}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=dacd190b7e109a0321f0516ab690ee34}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4c854060a5c2c13d6156d25ede08348b}{%
+           family={Buscema},
+           familyi={B\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+        {{hash=43b855785b8aada558387cc4afda42e4}{%
+           family={Steele},
+           familyi={S\bibinitperiod},
+           given={Gary\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7554bf1e8c6cb34c29797efcd88c9b44}{%
+           family={{Castellanos-Gomez}},
+           familyi={C\bibinitperiod},
+           given={Andres},
+           giveni={A\bibinitperiod}}}%
+        {{hash=718d1910dbfc00408a04ad35e86f4542}{%
+           family={Zant},
+           familyi={Z\bibinitperiod},
+           given={Herre\bibnamedelimb S.\bibnamedelimi J.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=9da5fb508961e65977aa750d52b23e95}{%
+           family={Vasconcellos},
+           familyi={V\bibinitperiod},
+           given={Steffen\bibnamedelima Michaelis},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=d1bd01d9590cad9ef53eaebd37fcfe0e}{%
+           family={Bratschitsch},
+           familyi={B\bibinitperiod},
+           given={Rudolf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{c26c7377a08086c1e9830a9913d01451}
+      \strng{fullhash}{35a2f031fe1c92a12904a5393f6d36b1}
+      \strng{bibnamehash}{35a2f031fe1c92a12904a5393f6d36b1}
+      \strng{authorbibnamehash}{35a2f031fe1c92a12904a5393f6d36b1}
+      \strng{authornamehash}{c26c7377a08086c1e9830a9913d01451}
+      \strng{authorfullhash}{35a2f031fe1c92a12904a5393f6d36b1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2334-2536}
+      \field{journaltitle}{Optica}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Single-Photon Emission from Localized Excitons in an Atomically Thin Semiconductor}
+      \field{volume}{2}
+      \field{year}{2015}
+      \field{pages}{347\bibrangedash 352}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1364/OPTICA.2.000347
+      \endverb
+    \endentry
+    \entry{mitterreiter-2021}{article}{}
+      \name{author}{22}{}{%
+        {{hash=0962a3b7462e8a1ef487e5a35827282f}{%
+           family={Mitterreiter},
+           familyi={M\bibinitperiod},
+           given={Elmar},
+           giveni={E\bibinitperiod}}}%
+        {{hash=c4ed0ad82e1bf3ce4c6f952d44238ea9}{%
+           family={Schuler},
+           familyi={S\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0ac7c4e14a2b9e20ea738f462861e87c}{%
+           family={Micevic},
+           familyi={M\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4cbebadd1388705373e0f21d94b44f46}{%
+           family={{Hernangómez-Pérez}},
+           familyi={H\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=569e5c221da74529465013845103ee3e}{%
+           family={Barthelmi},
+           familyi={B\bibinitperiod},
+           given={Katja},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2623d8a6421219da193c32daee81acef}{%
+           family={Cochrane},
+           familyi={C\bibinitperiod},
+           given={Katherine\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=47f7a8e1d494dca83757f70c5f791ea7}{%
+           family={Kiemle},
+           familyi={K\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2c118846340bd7d114ad6f2a7478d53b}{%
+           family={Sigger},
+           familyi={S\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=3fe909abf04cc3f5b45a46bcf5e4700b}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=466fcf8e599dbc988257178f8b0df177}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=c10b8e91d5a81d4f370e8a0afab7cf65}{%
+           family={Barnard},
+           familyi={B\bibinitperiod},
+           given={Edward\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ec13cda2cbfddcda8775a94455efdce0}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={Kenji},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5a856342313a0ed8d5c7c0315c53a88f}{%
+           family={Taniguchi},
+           familyi={T\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b17e335f86b4cfe955ff1d0dee60be19}{%
+           family={Lorke},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f0437eca54d8ccae4d820e7049e3c4af}{%
+           family={Jahnke},
+           familyi={J\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=566b0543f1c9fe872dccd259bd98ac49}{%
+           family={Finley},
+           familyi={F\bibinitperiod},
+           given={Johnathan\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1e6020c59df1a3be16d2ffa47ca20af7}{%
+           family={Schwartzberg},
+           familyi={S\bibinitperiod},
+           given={Adam\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d91418a949cf8c0d1c71e64856049b93}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Diana\bibnamedelima Y.},
+           giveni={D\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=04118a3f5b01dc6dc707254998d7979a}{%
+           family={{Refaely-Abramson}},
+           familyi={R\bibinitperiod},
+           given={Sivan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7d641c285626c25969af8546b8448718}{%
+           family={Holleitner},
+           familyi={H\bibinitperiod},
+           given={Alexander\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=5bda2ce8345302bd8b51f2c85a139da4}{%
+           family={{Weber-Bargioni}},
+           familyi={W\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c79b022ff4ff4e49f0ebb87c6d09e8db}{%
+           family={Kastl},
+           familyi={K\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{c165321fe2e70c1c9fdbbe672c69742a}
+      \strng{fullhash}{8916bb7d4134de42c292e535b2e0c761}
+      \strng{bibnamehash}{c165321fe2e70c1c9fdbbe672c69742a}
+      \strng{authorbibnamehash}{c165321fe2e70c1c9fdbbe672c69742a}
+      \strng{authornamehash}{c165321fe2e70c1c9fdbbe672c69742a}
+      \strng{authorfullhash}{8916bb7d4134de42c292e535b2e0c761}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{1}
+      \field{title}{The Role of Chalcogen Vacancies for Atomic Defect Emission in {{MoS2}}}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{pages}{3822}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41467-021-24102-y
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
