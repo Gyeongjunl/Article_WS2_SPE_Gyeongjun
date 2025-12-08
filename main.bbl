@@ -19,6 +19,367 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{novoselov-2004}{article}{}
+      \name{author}{8}{}{%
+        {{hash=edc496cb40fecf35de2f2957fb7a20ac}{%
+           family={Novoselov},
+           familyi={N\bibinitperiod},
+           given={K.\bibnamedelimi S.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=40f0ba5816a970378fff1e96ae8538f7}{%
+           family={Geim},
+           familyi={G\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=3ac1b6c954b4c96d13707e49d10d1604}{%
+           family={Morozov},
+           familyi={M\bibinitperiod},
+           given={S.\bibnamedelimi V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=1dee54224972293ef194ca10a2a6551e}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1f26f664835ac6c347db22001b657f1a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f788111879d4dc3a8f9da1b5ad19c531}{%
+           family={Dubonos},
+           familyi={D\bibinitperiod},
+           given={S.\bibnamedelimi V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=95e5b1f7631e44941e31f4157a125fe8}{%
+           family={Grigorieva},
+           familyi={G\bibinitperiod},
+           given={I.\bibnamedelimi V.},
+           giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=ae41d4ab1c9dd572a0bf8b4356c95b90}{%
+           family={Firsov},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{fca77cb58b7f342711c9d7fa90d2e237}
+      \strng{fullhash}{31f0a68b2188545d07423b13d2c1fb34}
+      \strng{bibnamehash}{31f0a68b2188545d07423b13d2c1fb34}
+      \strng{authorbibnamehash}{31f0a68b2188545d07423b13d2c1fb34}
+      \strng{authornamehash}{fca77cb58b7f342711c9d7fa90d2e237}
+      \strng{authorfullhash}{31f0a68b2188545d07423b13d2c1fb34}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{month}{10}
+      \field{number}{5696}
+      \field{title}{Electric {{Field Effect}} in {{Atomically Thin Carbon Films}}}
+      \field{volume}{306}
+      \field{year}{2004}
+      \field{pages}{666\bibrangedash 669}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.1102896
+      \endverb
+    \endentry
+    \entry{radisavljevic-2011}{article}{}
+      \name{author}{5}{}{%
+        {{hash=9303482b74eda5d2673b56329c72af33}{%
+           family={Radisavljevic},
+           familyi={R\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=24e66b62543706bbea29928621dae74c}{%
+           family={Radenovic},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=45435639a650fe7bcefada961f8ce4b2}{%
+           family={Brivio},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6401e4bb210c3024470db86ab3edad72}{%
+           family={Giacometti},
+           familyi={G\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=6d14ae735891cab3b8c8e426e4df9d96}{%
+           family={Kis},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{ddd09a2032323210914da420b259933a}
+      \strng{fullhash}{a3d0d7b6ab71f8b6aa1396b3deb80961}
+      \strng{bibnamehash}{a3d0d7b6ab71f8b6aa1396b3deb80961}
+      \strng{authorbibnamehash}{a3d0d7b6ab71f8b6aa1396b3deb80961}
+      \strng{authornamehash}{ddd09a2032323210914da420b259933a}
+      \strng{authorfullhash}{a3d0d7b6ab71f8b6aa1396b3deb80961}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-3395}
+      \field{journaltitle}{Nature Nanotechnology}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Single-Layer {{MoS2}} Transistors}
+      \field{volume}{6}
+      \field{year}{2011}
+      \field{pages}{147\bibrangedash 150}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nnano.2010.279
+      \endverb
+    \endentry
+    \entry{mak-2010}{article}{}
+      \name{author}{5}{}{%
+        {{hash=f918f18c0dd2307498a13e773647d28e}{%
+           family={Mak},
+           familyi={M\bibinitperiod},
+           given={Kin\bibnamedelima Fai},
+           giveni={K\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=89ae87af099fc4c5d1b90b32af948c6f}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Changgu},
+           giveni={C\bibinitperiod}}}%
+        {{hash=00c1651925040335862417178201693b}{%
+           family={Hone},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c064a84f7e454954a5cb86f2ac51e959}{%
+           family={Shan},
+           familyi={S\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4e229afa7b7665dcd373a95b2b539fd7}{%
+           family={Heinz},
+           familyi={H\bibinitperiod},
+           given={Tony\bibnamedelima F.},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{4ae6203f8762fde591d6726d286b8c84}
+      \strng{fullhash}{64d978ec3ec696789179c9b8a30fd895}
+      \strng{bibnamehash}{64d978ec3ec696789179c9b8a30fd895}
+      \strng{authorbibnamehash}{64d978ec3ec696789179c9b8a30fd895}
+      \strng{authornamehash}{4ae6203f8762fde591d6726d286b8c84}
+      \strng{authorfullhash}{64d978ec3ec696789179c9b8a30fd895}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{9}
+      \field{number}{13}
+      \field{title}{Atomically {{Thin}} \$\{{\textbackslash}mathrm\{\vphantom{\}\}}{{MoS}}\vphantom\{\}\vphantom\{\}\_\{2\}\$: {{A New Direct-Gap Semiconductor}}}
+      \field{volume}{105}
+      \field{year}{2010}
+      \field{pages}{136805}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.105.136805
+      \endverb
+    \endentry
+    \entry{velicky-2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=43a4377ee5e6cd96edddfb8cd3e55dfc}{%
+           family={Velický},
+           familyi={V\bibinitperiod},
+           given={Matěj},
+           giveni={M\bibinitperiod}}}%
+        {{hash=160179b36b8d849567052b9339522b95}{%
+           family={Toth},
+           familyi={T\bibinitperiod},
+           given={Peter\bibnamedelima S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a44c887580f8dbeb1ec194dd7aea59f9}
+      \strng{fullhash}{a44c887580f8dbeb1ec194dd7aea59f9}
+      \strng{bibnamehash}{a44c887580f8dbeb1ec194dd7aea59f9}
+      \strng{authorbibnamehash}{a44c887580f8dbeb1ec194dd7aea59f9}
+      \strng{authornamehash}{a44c887580f8dbeb1ec194dd7aea59f9}
+      \strng{authorfullhash}{a44c887580f8dbeb1ec194dd7aea59f9}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2352-9407}
+      \field{journaltitle}{Applied Materials Today}
+      \field{month}{9}
+      \field{series}{{{2D Materials}} in {{Electrochemistry}}}
+      \field{title}{From Two-Dimensional Materials to Their Heterostructures: {{An}} Electrochemist's Perspective}
+      \field{volume}{8}
+      \field{year}{2017}
+      \field{pages}{68\bibrangedash 103}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1016/j.apmt.2017.05.003
+      \endverb
+    \endentry
+    \entry{ugeda-2014}{article}{}
+      \name{author}{13}{}{%
+        {{hash=0efedb85a75ecd1ceaf0e5a75a52818f}{%
+           family={Ugeda},
+           familyi={U\bibinitperiod},
+           given={Miguel\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=309a71ed485b86ff0a38bc79771b0066}{%
+           family={Bradley},
+           familyi={B\bibinitperiod},
+           given={Aaron\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=303981488c461f2dc2988720ac0183b7}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Su-Fei},
+           giveni={S\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=111eb91241a203090ed964bad13611d4}{%
+           family={{da Jornada}},
+           familyi={d\bibinitperiod},
+           given={Felipe\bibnamedelima H.},
+           giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f4db9373a5ba3555eac8a45bcd339479}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d91418a949cf8c0d1c71e64856049b93}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Diana\bibnamedelima Y.},
+           giveni={D\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=3d13fb9dc013d84c7c2989f1737d32cc}{%
+           family={Ruan},
+           familyi={R\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=a5b8a1cac55802badebfc711fa0decfd}{%
+           family={Mo},
+           familyi={M\bibinitperiod},
+           given={Sung-Kwan},
+           giveni={S\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=f887a334cdff766b637a8a61bc553bb1}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={Zahid},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d5c43c995a8be9dea6d233f0e421aa8c}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Zhi-Xun},
+           giveni={Z\bibinithyphendelim X\bibinitperiod}}}%
+        {{hash=ee2b4a15025ecfaafcb95983b2d2623d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=033bd00ce6a0abe28043361e6118cbe9}{%
+           family={Louie},
+           familyi={L\bibinitperiod},
+           given={Steven\bibnamedelima G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=e7390b15bdfad37d5ac00f27a4dacac3}{%
+           family={Crommie},
+           familyi={C\bibinitperiod},
+           given={Michael\bibnamedelima F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{1c6194df8827970e000ba96fb1940a15}
+      \strng{fullhash}{03b9659b70b4a1ab7e0d97331b6f4b15}
+      \strng{bibnamehash}{03b9659b70b4a1ab7e0d97331b6f4b15}
+      \strng{authorbibnamehash}{03b9659b70b4a1ab7e0d97331b6f4b15}
+      \strng{authornamehash}{1c6194df8827970e000ba96fb1940a15}
+      \strng{authorfullhash}{03b9659b70b4a1ab7e0d97331b6f4b15}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1476-4660}
+      \field{journaltitle}{Nature Materials}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Giant Bandgap Renormalization and Excitonic Effects in a Monolayer Transition Metal Dichalcogenide Semiconductor}
+      \field{volume}{13}
+      \field{year}{2014}
+      \field{pages}{1091\bibrangedash 1095}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/nmat4061
+      \endverb
+    \endentry
+    \entry{liang-2021}{article}{}
+      \name{author}{5}{}{%
+        {{hash=8be794306e98874433e3300ca23ae3b2}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Qijie},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=ab5652acf0de64074be2a35319b7c36a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=c6656ad474d7390f439082797e014961}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Xiaoxu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=80ef7b2537f1e073d9ee21b2380119d6}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Meizhuang},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0c4cc24fbbf03dec236ea726b8d8e393}{%
+           family={Wee},
+           familyi={W\bibinitperiod},
+           given={Andrew\bibnamedelimb T.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{3600d301e3de874a7f482e278d236f4f}
+      \strng{fullhash}{423dd48cff28927d85cc522a32195cb7}
+      \strng{bibnamehash}{423dd48cff28927d85cc522a32195cb7}
+      \strng{authorbibnamehash}{423dd48cff28927d85cc522a32195cb7}
+      \strng{authornamehash}{3600d301e3de874a7f482e278d236f4f}
+      \strng{authorfullhash}{423dd48cff28927d85cc522a32195cb7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1936-0851}
+      \field{journaltitle}{ACS Nano}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Defect {{Engineering}} of {{Two-Dimensional Transition-Metal Dichalcogenides}}: {{Applications}}, {{Challenges}}, and {{Opportunities}}}
+      \field{volume}{15}
+      \field{year}{2021}
+      \field{pages}{2165\bibrangedash 2181}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1021/acsnano.0c09666
+      \endverb
+    \endentry
     \entry{tonndorf-2015}{article}{}
       \name{author}{10}{}{%
         {{hash=bd9f51c332fb73a89a2037947b2eae9c}{%
@@ -85,8 +446,8 @@
       \strng{authorbibnamehash}{35a2f031fe1c92a12904a5393f6d36b1}
       \strng{authornamehash}{c26c7377a08086c1e9830a9913d01451}
       \strng{authorfullhash}{35a2f031fe1c92a12904a5393f6d36b1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2334-2536}
@@ -225,8 +586,8 @@
       \strng{authorbibnamehash}{c165321fe2e70c1c9fdbbe672c69742a}
       \strng{authornamehash}{c165321fe2e70c1c9fdbbe672c69742a}
       \strng{authorfullhash}{8916bb7d4134de42c292e535b2e0c761}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2041-1723}
@@ -241,6 +602,193 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1038/s41467-021-24102-y
+      \endverb
+    \endentry
+    \entry{zinkiewicz-2021b}{article}{}
+      \name{author}{15}{}{%
+        {{hash=cec2d991fe7b7683063593d107dd6e28}{%
+           family={Zinkiewicz},
+           familyi={Z\bibinitperiod},
+           given={Ma{ł}gorzata},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a0fe7a03a86ada4f4963c151898d09a0}{%
+           family={Woźniak},
+           familyi={W\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod}}}%
+        {{hash=450ef5580723a341288ff887e9d1e119}{%
+           family={Kazimierczuk},
+           familyi={K\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c88c6196c15e1474d11f30ccceaf5a0c}{%
+           family={Kapuscinski},
+           familyi={K\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=fa2067286c43727303e74344a15b3709}{%
+           family={Oreszczuk},
+           familyi={O\bibinitperiod},
+           given={Kacper},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a6e3c1308532d8bfe1fa2b0791fd0d7f}{%
+           family={Grzeszczyk},
+           familyi={G\bibinitperiod},
+           given={Magdalena},
+           giveni={M\bibinitperiod}}}%
+        {{hash=68764db782d477f0222900f9d4130e4f}{%
+           family={Bartoš},
+           familyi={B\bibinitperiod},
+           given={Miroslav},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a3f207d2cb76b61e29c22a25887a1fe4}{%
+           family={Nogajewski},
+           familyi={N\bibinitperiod},
+           given={Karol},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ec13cda2cbfddcda8775a94455efdce0}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={Kenji},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5a856342313a0ed8d5c7c0315c53a88f}{%
+           family={Taniguchi},
+           familyi={T\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4ffa243ad8a976457d6ea2e184abab5b}{%
+           family={Faugeras},
+           familyi={F\bibinitperiod},
+           given={Clement},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6c193dd2bd306316155a65470f866f32}{%
+           family={Kossacki},
+           familyi={K\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ddfed7f3382a464b0d35bc34bccbbc9a}{%
+           family={Potemski},
+           familyi={P\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod}}}%
+        {{hash=78c6f2e5a25e7fffe1bcd677eef20717}{%
+           family={Babiński},
+           familyi={B\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0c0229d49a126e96b68308cbcd5e6f45}{%
+           family={Molas},
+           familyi={M\bibinitperiod},
+           given={Maciej\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{dc732265454efefffeab752d0dbab54c}
+      \strng{fullhash}{08637b8b039c10acccb6b248a14db801}
+      \strng{bibnamehash}{08637b8b039c10acccb6b248a14db801}
+      \strng{authorbibnamehash}{08637b8b039c10acccb6b248a14db801}
+      \strng{authornamehash}{dc732265454efefffeab752d0dbab54c}
+      \strng{authorfullhash}{08637b8b039c10acccb6b248a14db801}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1530-6984}
+      \field{journaltitle}{Nano Letters}
+      \field{month}{3}
+      \field{number}{6}
+      \field{title}{Excitonic {{Complexes}} in N-{{Doped WS2 Monolayer}}}
+      \field{volume}{21}
+      \field{year}{2021}
+      \field{pages}{2519\bibrangedash 2525}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1021/acs.nanolett.0c05021
+      \endverb
+    \endentry
+    \entry{nagler-2018a}{article}{}
+      \name{author}{11}{}{%
+        {{hash=a10664b01b6e57241beb1ce74383fed2}{%
+           family={Nagler},
+           familyi={N\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0ca2e341760b31448c650bf998b8e762}{%
+           family={Ballottin},
+           familyi={B\bibinitperiod},
+           given={Mariana\bibnamedelima V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=e52b300a4ec7b83b56c330a3b0dd95d7}{%
+           family={Mitioglu},
+           familyi={M\bibinitperiod},
+           given={Anatolie\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e81816c3ab1a091f4f0e79089a0acf11}{%
+           family={Durnev},
+           familyi={D\bibinitperiod},
+           given={Mikhail\bibnamedelima V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=5a856342313a0ed8d5c7c0315c53a88f}{%
+           family={Taniguchi},
+           familyi={T\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ec13cda2cbfddcda8775a94455efdce0}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={Kenji},
+           giveni={K\bibinitperiod}}}%
+        {{hash=75b37d987442148bc9fc0f5aee158fe0}{%
+           family={Chernikov},
+           familyi={C\bibinitperiod},
+           given={Alexey},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b342bbcd46bbac8dfda00c6b594aa447}{%
+           family={Schüller},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a04e3fafce5982afe82435e37ec282e6}{%
+           family={Glazov},
+           familyi={G\bibinitperiod},
+           given={Mikhail\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4e5c55760d5af7017e7a9f5e007b5f06}{%
+           family={Christianen},
+           familyi={C\bibinitperiod},
+           given={Peter\bibnamedelimb C.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=514519524c166805fa7c381a0bae023e}{%
+           family={Korn},
+           familyi={K\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{2289d5cd837663dfba2f231243486816}
+      \strng{fullhash}{d0518031f20741eedc8b0275ba645453}
+      \strng{bibnamehash}{d0518031f20741eedc8b0275ba645453}
+      \strng{authorbibnamehash}{d0518031f20741eedc8b0275ba645453}
+      \strng{authornamehash}{2289d5cd837663dfba2f231243486816}
+      \strng{authorfullhash}{d0518031f20741eedc8b0275ba645453}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{8}
+      \field{number}{5}
+      \field{title}{Zeeman {{Splitting}} and {{Inverted Polarization}} of {{Biexciton Emission}} in {{Monolayer}} \$\{{\textbackslash}mathrm\{\vphantom{\}\}}{{WS}}\vphantom\{\}\vphantom\{\}\_\{2\}\$}
+      \field{volume}{121}
+      \field{year}{2018}
+      \field{pages}{057402}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.121.057402
       \endverb
     \endentry
   \enddatalist
