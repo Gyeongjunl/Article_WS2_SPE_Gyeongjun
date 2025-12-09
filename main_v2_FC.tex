@@ -1,0 +1,247 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% This is a "template" model document for submission to the
+%% American Chemical Society (ACS).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[letterpaper]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Font setup - delete if you are using LuaLaTeX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Adjust the margins and allow for line spacing
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{geometry}
+\geometry{margin = 1in}
+\usepackage{setspace}
+% \doublespacing % Uncomment if required by the journal
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Reference support
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[style = chem-acs]{biblatex}
+\addbibresource{acs-template.bib}
+% If you are using classical BibTeX, remove the above lines and 
+% uncomment:
+% \usepackage{achemso}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Graphic inclusion and scheme and chart support
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx}
+\usepackage{float}
+\newfloat{scheme}{htbp}{los}
+\floatname{scheme}{Scheme}
+\floatname{chart}{Chart}
+\newfloat{graph}{htbp}{loh}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Common support packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{chemformula} % Formulas using \ch{}
+% or
+\usepackage[version = 4]{mhchem} % Formulas using \ce{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Many journals require that sections are unnumbered: this 
+%% is activated here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{secnumdepth}{-1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Place any additional macros here.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand*\mycommand[1]{\texttt{\emph{#1}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Author and title data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{authblk}
+
+\author[1]{G. Lee}
+\author[1]{A. Borel}
+\author[2]{T. Taniguchi}
+\author[3]{K. Watanabe}
+\author[1]{F. Sirotti}
+\author[1]{F. Cadiz}
+\affil[1]{Laboratoire de Physique de la Matière Condensée, CNRS,
+Ecole Polytechnique, Institut Polytechnique de Paris, 91120 Palaiseau, France}
+
+\affil[2]{International Center for Materials Nanoarchitectonics, National Institute for Materials Science, 1-1 Namiki, Tsukuba 305-0044, Japan}
+
+\affil[3]{Research Center for Functional Materials, National Institute for Materials Science, 1-1 Namiki, Tsukuba 305-0044, Japan}
+
+
+\title{Thermally-assisted generation of Single-Photon Emitters in monolayer WS$_2$}
+
+% Use the \date command for email address(s) of corresponding authors
+%\date{*Email: gyeongjun.lee@polytechnique.edu}
+\date{*Email: fabian.cadiz@polytechnique.edu}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+The controlled generation of single-photon emitters (SPEs) in two-dimensional (2D) semiconductors is an essential step towards their integration in quantum communication and information processing platforms. Here, we use \textit{in situ} high-temperature annealing of hBN-encapsulated monolayer \ce{WS$_2$} on a suspended micro-heater to produce spectrally narrow single-photon emitters at cryogenic temperatures. Annealing at 1100 K leads to the emergence of a sharp, nanosecond-lived emission line $X_\mathrm{L}$ whose linewidth is at least as small as 200 $\mu$eV, and which is red-shifted by 80 meV from the neutral exciton emission. Photoluminescence excitation spectroscopy confirms that $X_\mathrm{L}$ originates from annealing-induced defects in the WS$_2$ monolayer. Second-order photon correlation measurements show clear antibunching with $g^{(2)}(0)\approx 0.4$, confirming the single character of the observed defect. This approach opens the door for a controlled and robust pathway for engineering SPEs in monolayer \ce{WS$_2$} and adds a new member to the ever-growing family of defect-based quantum light sources in 2D semiconductors.
+
+\end{abstract}
+
+%\section*{Keywords}
+%Two-dimensional materials; \ce{WS2}; defect engineering; thermal annealing; single-photon emitters; hBN encapsulation; excitons.
+
+%\section*{Abbreviations}
+%TMD, transition metal dichalcogenide; PL, photoluminescence; PLE, photoluminescence excitation; TRPL, time-resolved photoluminescence; SPE, single-photon emitter; HBT, Hanbury Brown--Twiss.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Start the main part of the manuscript here.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Introduction}
+The reduced dielectric screening and strong quantum confinement in monolayer transition metal dichalcogenids (TMDs) lead to a remarkable enhancement of the Coulomb interaction \cite{velicky-2017}, such that excitons dominate their optical properties even at room temperature \cite{ugeda-2014}. Owing to their two-dimensional (2D) nature and small radius \cite{goryca-2019}, excitons in TMDs and other 2D materials are highly sensitive to local perturbations. As a result,  defects, strain, and dielectric disorder can efficiently confine excitons \cite{liang-2021}, enabling the engineering of point-like defects for the generation of single-photton emitters in atomically-thin layers.\\
+
+
+Over the past decade, intense efforts have been devoted to understanding and controlling single-photon emission in 2D semiconductors. Following the first observations of single-photon emitters in monolayer WSe$_2$ \cite{tonndorf-2015,srivastava-2015}, a variety of deterministic approaches have emerged. Focused helium ion irradiation has enabled the creation of spatially ordered arrays of single-photon emitters in  monolayer MoS$_2$ with nanometric precision \cite{hotger-2023,barthelmi-2020}, although its efficiency is significantly reduced in the similar material WS$_2$ \cite{micevic-2022}. Electron-beam irradiation has also been employed to activate individual colour centers in hexagonal boron nitride with high lateral precision \cite{fournier-2021}. Alternatively, thermal annealing under controlled environments has recently been shown to generate defect-related emission in monolayer MoS$_2$ \cite{mitterreiter-2021} and ultra-sharp green emitters in hBN under oxygen atmosphere \cite{fartas-2025}.\\
+
+ In this work, we adopt this latter approach and demonstrate the generation of single-photon emitters in hBN-encapsulated WS$_2$ through high-vacuum thermal annealing. We fabricate hBN/\ce{WS2}/hBN heterostructures on suspended SiC micro-membranes that act as local micro-heaters. Integration into a cryostat enables Joule heating of the membrane up to $\sim$1200 K while maintaining the surrounding environment at cryogenic temperature. We show that this controlled thermal treatment leads to the formation of individual quantum emitters in monolayer \ce{WS2}. We measure a  recombination time in the nanosecond range at cryogenic temperatures and perform second-order photon correlation measurements yielding $g^{(2)}(0) \approx 0.3$, confirming the single-photon nature of the emission. Photoluminescence excitation spectroscopy (PLE) further demonstrates that the emitting defects originate from the TMD layer rather than from the hBN or the SiC membrane. The observed single-photon emission is attributed to excitons localized at annealing-induced defect sites, whose microscopic origin remains to be elucidated.
+
+
+
+\section{Results}
+
+\subsection{Sample preparation and optical characterization}
+
+Fully encapsulated \ce{WS2} monolayers were prepared by mechanical exfoliation of bulk crystals followed by the assembly of hBN/\ce{WS2}/hBN heterostructures on \ce{Si/SiO2} substrates through a dry stamp transfer technique \cite{castellanos-gomez-2014}. The stack was then picked up using a polycarbonate (PC) stamp and transferred (thermal release at $\sim 200^{\circ}$C) onto suspended SiC membranes as shown in Figure \ref{fig:fig1}(a). Figure \ref{fig:fig1}(b) shows an optical image under white light illumination of an hBN encapsulated monolayer WS$_2$ transferred onto a SiC membrane. The latter is suspended between two silicon contacts allowing for a current to be applied accross it. \\
+
+Unless otherwise stated, the laser source was a pulsed supercontinuum laser coupled to a  tunable filter (typical FWHM of 2 nm). The laser pulses have a temporal width of 40 ps, repetition rate of 78 MHz, and were focused onto the sample by an apochromatic objective (NA=0.82) producing a spot of  $\sim 1 \;\mu$m diameter.  The photoluminescence was collected by the same objective, dispersed by a grating spectrometer and imaged by a Peltier-cooled CCD camera. For time-resolved and photon-correlation measurements, the photoluminescence was filtered by a double spectrometer and focused into a fibered Hanbury-Brown-Twiss setup. The detectors at the outputs were two identical single-photon avalanche photodiodes of temporal resolution close to 30 ps.\\
+
+Figure \ref{fig:fig1}(c) shows the low temperature photoluminescence (PL) spectrum of one of the devices, showing sharp excitonic features with well-resolved fine structure, including the neutral exciton $X^0$, the negatively charged trions $T^T$ and $T^S$, the dark-exciton $X^D$, the negatively-charged biexciton $XX^-$, as well as several phonon assisted recombination of dark trions. The linewidths, of only a few meV, confirm the excellent optical quality of the samples and the effectiveness of encapsulation in suppressing dielectric disorder \cite{cadiz-2017}. These peaks are consistent with those previously reported in the literature  \cite{zinkiewicz-2021b, paur-2019}.\\
+
+Photoluminescence excitation (PLE) spectroscopy, in which the detection energy is fixed while the excitation energy is scanned at constant power, probes the absorption and relaxation pathways that populate a given emission line. A significant increase in PL intensity indicates that the excitation energy is resonant with an excitonic transition, allowing PLE to map the absorption spectrum linked to that state. Our PLE data in Figure \ref{fig:fig1}(d), corresponding to the emission of the low-energy part of the spectrum, reveals clear resonances at the A and B excitons and at the 2s excited states of the A exciton and the trion.  These distinct optical resonances, intrinsic to pristine WS$_2$, will be important for the characterisation of single-photon emitters.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{Figures/Figure1.pdf}
+  \caption{\textbf{Optical characterization of hBN-encapsulated monolayer \ce{WS2} on a micro-heater membrane.}
+  (a) Schematic of the micro-heater chip showing the suspended SiC membrane between metallic contacts and the hBN/\ce{WS2}/hBN stack transferred on top.  
+  (b) Optical image of a representative encapsulated flake on the membrane.  
+  (c) Low-temperature PL spectrum at 3.6K displaying sharp neutral-exciton, trion, and dark-state related resonances with linewidths of a few meV ($\lambda_{\mathrm{laser}} = 514.5~\mathrm{nm}$ (CW), power $P_{\mathrm{laser}} = 1~\mu\mathrm{W}$).
+  (d) PLE spectrum of the highlighted low-energy region exhibiting well-resolved A- and B-exciton absorption resonances and excited excitonic states.($P_{\mathrm{laser}} = 4~\mu\mathrm{W}$)}
+  \label{fig:fig1}
+\end{figure}
+
+\subsection{Thermal annealing and emergence of single-photon emitters}
+
+Thermal annealing was performed \textit{in situ} by driving a dc current through the suspended SiC membrane inside the cryostat. For each annealing temperature, the current was gradually increased in steps and held for typically 30~min at the desired value,  then turned off gradually after which the membrane cooled back to the base temperature of a few kelvin.  Importantly, we have checked that during this temperature cycle the membrane does not move significantly and the target sample is still in focus. This allows us to probe the optical response of the same spot in the monolayer after several annealing steps. For the temperature calibration, we have measured the PL spectrum at each annealing step as shown in Figure \ref{fig:fig2}(a) and used Pässler's model \cite{passler-1997}:
+
+$$E_g(T) = E_g(0)-\frac{\alpha\Theta}{2} \left[\sqrt[p]{1+\left(\frac{2T}{\Theta}\right)^p}-1\right]$$
+
+ to extract the temperature from the peak position, indicated by the arrows in Fig.\ref{fig:fig2}(a). We have first validated, using an already temperature-calibrated chip, that Pässler's formula correctly describes the peak position up to $\sim$900~K with the exact same parameters ($E_g(0) \approx 2.063 eV$, $\alpha \approx 3.47 \cdot 10^{-4} eV/K$, $\Theta \approx 200.89K$ and $p \approx 2.35$) previously found in  for WS$_2$ \cite{nagler-2018a}, except for the exciton position at 0 K which is different in encapsulated monolayers due to the change of the dielectric environment. For temperatures higher than 950 K, the blackbody radiation of the membrane becomes more intense than the PL itself in the region in which both overlap. In that case we use Planck's law to determine the sample temperature. We have checked that at a temperature at which both the PL and the blackbody radiation are discernable, both methods yield the same temperature up to $\pm X$ K (see Appendix). \\
+
+
+ After annealing temperatures up to $\sim$1000~K, the PL spectra at cryogenic temperature remain dominated by the intrinsic excitonic emission, apart from redshifts and intensity changes which could be attributed to strain induced by the annealing treatment.  
+  After annealing around 1100~K, however, an ultra sharp emission appears on the low-energy side of $X^0$. Figure \ref{fig:fig2}(b,c) show the emergence of such narrow emissions in two different samples. These lines, denoted here by $X_\mathrm{L}$, were located 75 meV and 86 meV  below the neutral exciton. In contrast to the few meV linewidth of the other excitonic peaks observed in as-exfoliated samples, $X_\mathrm{L}$  exhibits a linewidth below 0.2~meV at low excitation power, limited here by our spectrometer's resolution.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{Figures/Figure2.pdf}
+  \caption{\textbf{Thermal-annealing-induced single-photon emission in encapsulated \ce{WS2}.}
+  (a) PL spectra at different temperatures, showing the red-shift of neutral exciton energy with temperature used for temperature calibration.
+  (b) PL spectrum after annealing around 1100~K in the first sample ($\lambda_{\mathrm{laser}} = 514.5~\mathrm{nm}(CW),\;
+P_{\mathrm{laser}} = 1~\mu\mathrm{W},\;
+T = 3.65~\mathrm{K}$).
+  (c) PL spectrum after annealing around 1100~K in the second sample ($\lambda_{\mathrm{laser}} = 503~\mathrm{nm}(pulsed),\;
+P_{\mathrm{laser}} = 1~\mu\mathrm{W},\;
+T = 3.72~\mathrm{K}$).}
+  \label{fig:fig2}
+\end{figure}
+
+\subsection{Excitonic origin and recombination dynamics of $X_\mathrm{L}$}
+
+We have performed PLE spectroscopy on the $X_\mathrm{L}$ emission while scanning the laser energy across the excitonic resonances. The resulting PLE spectrum, shown in Figure \ref{fig:fig3}(a), exhibit the two main absorption resonances intrinsic to monolayer WS$_2$: the A and B exciton transitions. This mirrors the PLE recorded in the as-exfoliated WS$_2$ (Figure \ref{fig:fig1}(d)), and demonstrates that $X_\mathrm{L}$ emission is enhanced whenever free excitons are generated in the \ce{WS2} layer, excluding other possible origins such as termally-induced defects in the hBN ecapsulation layers or in the SiC membrane. \\
+
+In addition, power-dependent PL measurements in Figure \ref{fig:fig3}(b) confirm the defect nature of $X_\mathrm{L}$. Indeed, the integrated intensity increases linearly with excitation power before saturating, as expected for a small number of defect sites that can host at most one exciton at a time.
+The continuous line in Figure \ref{fig:fig3}(b) corresponds to a fit of the form:
+
+$$
+I_{\mathrm{PL}}(P_{\mathrm{avg}}) = C \left( 1 - e^{-\frac{\alpha}{f_{\mathrm{rep}}} P_{\mathrm{avg}}} \right)
+$$
+
+
+where $f_{\mathrm{rep}}$ denotes the laser repetition rate, $P_{\mathrm{avg}}$ represents the average laser power, $C$ is a constant, and $\alpha$ is the fitting parameter.
+ The value of $\alpha$ allows us to estimate that the probability to excite the defect is $p=...$ per photon. Moreover, the number of counts at saturation allows us to estimate the quantum yield at $\sim X \;\%$ by taking into account the optical losses of our setup.
+Figure \ref{fig:fig3}(b) also shows that the linewidth of $X_\mathrm{L}$ broadens  with power, possibly due to local heating caused by the laser.\\
+
+Figure \ref{fig:fig3}(c) shows a time-resolved PL (TRPL) measurement. It indicates that $X_\mathrm{L}$ emission decays with a characteristic lifetime of $\sim$0.9~ns. This lifetime is significantly longer than that of trion emission in the same sample and similar to the lifetime typically reported for single-photon emitters in 2D materials. Finally, the quantum nature of $X_\mathrm{L}$ is probed through second-order photon correlation measurements using a Hanbury Brown-Twiss setup under pulsed excitation. The measured intensity correlation function $g^{(2)}(\tau)$ , shown in Fig. \ref{fig:fig3}(d), shows a clear antibunching dip at zero delay with $g^{(2)}(0)\approx 0.3$ without any background correction procedure. This unambiguously proves that $X_\mathrm{L}$ acts as a single-photon emitter. The moderate residual value of $g^{(2)}(0)$ is attributed to background emission and imperfect spectral filtering and could be further reduced by improving the collection optics (to decrease the laser excitation power) and spectral selection.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{Figures/Figure3.pdf}
+  \caption{\textbf{Optical signatures of the SPE $X_\mathrm{L}$.}
+  (a) PLE spectrum recorded at the $X_\mathrm{L}$ emission energy, showing strong resonances at the A and B exciton absorption energies.  
+  (b) Power dependence of the $X_\mathrm{L}$ intensity and linewidth, exhibiting saturation of the intensity and resolution-limited linewidth at low power. ($\lambda_{\mathrm{laser}} = 503 ~\mathrm{nm}$ (pulsed)).
+  (c) Time-resolved PL traces of $X_\mathrm{L}$ and trion emission, highlighting the longer lifetime of the localized state. ($\lambda_{\mathrm{laser}} = 506~\mathrm{nm}$ (pulsed), power $P_{\mathrm{laser}} = 2.5~\mu\mathrm{W}$).  
+  (d) Second-order correlation function $g^{(2)}(\tau)$ under pulsed excitation, displaying pronounced antibunching with $g^{(2)}(0) < 0.5$. ($\lambda_{\mathrm{laser}} = 506~\mathrm{nm}$ (pulsed), power $P_{\mathrm{laser}} = 1~\mu\mathrm{W}$).}
+  \label{fig:fig3}
+\end{figure}
+
+%Overall, the combination of spectrally isolated, ultra-narrow emission, nanosecond radiative lifetime, and antibunched photon statistics demonstrates that high-temperature annealing of encapsulated \ce{WS2} generates defect-based single-photon emitters that can be probed with high spectral resolution.
+\section{Discussion}
+Although the generation of defects (not necessarily single-photon emitters) by thermal annealing has already been reported in other two-dimensional materials, the high temperature required here (above 1000 K) for the observation of single-photon emitters is uncommon. For example, recent results on monolayer MoS$_2$ showed that defect emission attributed to sulfur vacancies already becomes visible after annealing at 500 K, and that the photoluminescence completely vanishes above 900 K \cite{mitterreiter-2021}. If the nature of the defect observed here is also linked to chalcogen vacancies, our results may indicate a significantly higher activation energy in WS$_2$ compared to MoS$_2$. This is consistent with the stronger W–S bond compared to the Mo–S bond and with calculations that put the chalcogen vacancy formation energy in WS$_2$ as the highest of the TMD family \cite{guo-2015}. Our results further show that the photoluminescence of WS$_2$ can withstand thermal treatments at substantially higher temperatures than MoS$_2$.\\
+
+In order to determine the maximum annealing temperature above which all spectral signatures of WS$_2$ are destroyed, we performed Raman spectroscopy on an independently calibrated micro-membrane. We find that the Raman features of monolayer WS$_2$ survive up to $X$ K (see Appendix), above which the monolayer completely disappears under white-light illumination. This is in agreement with the early work \cite{brainard-1968} of Brainard who reported the dissociation of WS$_2$ at approximately 1313 K under high vacuum.\
+
+Although the exact nature of the observed defects is not yet established, we can exclude that they arise from the activation of vacancies filled by ambient molecules. First, hBN encapsulation makes it unlikely for adsorbates to reside at defect sites. Second, after each annealing step, any possible adsorbates are efficiently desorbed and cryopumped by the cold surfaces of the cryostat. We have also observed defect-related emission in non-encapsulated monolayers; however, in that case the emission is red-shifted by about 200 meV from the neutral exciton, the linewidth remains in the meV range, and, crucially, the emission is not stable in time nor under pulsed laser excitation. In addition to limiting chemical contamination, hBN encapsulation is known to suppress photodoping \cite{cadiz-2016a} and charge noise, which likely contributes to the high temporal stability and narrow linewidth of the observed emitters. This comparison strongly indicates that encapsulation is a necessary ingredient to stabilize the charge environment of the defect and to enable single-photon emission in WS$_2$.
+
+
+
+\section{Conclusion}
+
+We have demonstrated a new way of creating single-photon emitters in monolayer \ce{WS2} by \textit{in situ} high-temperature annealing on a micro-heater platform. The clean dielectric environment provided by hBN enables the emergence of an ultra-narrow localized exciton $X_\mathrm{L}$ located $\sim 80 $ meV below the neutral exciton emission after annealing around 1100~K. This emission exhibit a resolution-limited linewidth below 0.2~meV, a recombination lifetime of $\sim$0.9~ns, and clear photon antibunching with $g^{(2)}(0)\approx 0.3$, confirming its single-photon character. PLE measurements show that $X_\mathrm{L}$ originates from intrinsic excitons captured by thermally generated defects in WS$_2$, whose nature merits further investigation. Given ab initio studies of intrinsic defects in TMD monolayers, chalcogen-vacancy formation in WS$_2$ is predicted to require a significantly higher formation energy than in MoS$_2$. This is consistent with our observation that single-photon emitters only appear after annealing above 1000 K, contrasting with lower-temperature defect emission in MoS$_2$. To unambiguously identify the microscopic structure — vacancy, divacancy-impurity complex or other configuration — one promising route is to perform scanning tunneling luminescence microscopy, allowing atomic-scale imaging and simultaneous optical readout \cite{huberich-2025}. Furthermore, polarization-resolved photoluminescence (PL) studies of the emitters are required to establish whether they preserve the spin–valley coupling typical of TMD excitons, and to assess the possibility of optical spin control. Another interesting direction is to explore the doping dependence of these emitters in gated heterostructures, and their coupling with a spin-valley–polarized electron gas, which can be generated in tungsten-based monolayers \cite{robert-2021} — potentially allowing electrical and/or optical tuning of the emitter charge state and spin properties.
+
+
+\section*{Acknowledgements}
+We thank H. Duprez and S. Annaby for their valuable help and technical assistance regarding sample preparation. FC acknowledges support of the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No. 101075855)
+
+\section*{Data Availability}
+The data that support the findings of this study are available in Zenodo at (to be completed).
+
+\section*{Supporting information}
+
+Additional experimental details, micro-heater calibration procedures, extended temperature-dependent PL maps, PLE datasets, TRPL analysis, and raw $g^{(2)}(\tau)$ histograms will be provided in the Supporting Information.
+
+The following files are available free of charge.
+\begin{itemize}
+  \item SI\_WS2\_annealing.pdf: Experimental methods and additional figures.
+  \item data\_WS2\_XL.zip: Selected raw PL, PLE, TRPL, and HBT data.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\printbibliography
+% \bibliography{acs-template.bib}
+
+\newpage
+
+\rule{0.05in}{1.75in}%
+\begin{minipage}[b][1.75in]{3.25in}
+  \sffamily
+  \frenchspacing
+
+  Some journals require a graphical entry for the Table of Contents. This
+  should be laid out ``print ready'' so that the sizing of the text is correct.
+
+  The space available depends on the journal: J. Am. Chem. Soc. allows 3.25 in
+  by 1.75 in and requires sanserif text. Some journals want different sizes:
+  you can easily adjust here.
+  
+  The two rules either side of the content are there to help judge the height
+  of your material: they may be deleted once not required.
+  
+\end{minipage}%
+\rule{0.05in}{1.75in}
+
+\end{document}
