@@ -138,7 +138,7 @@ Thermal annealing was performed \textit{in situ} by driving a dc current through
 
 $$E_g(T) = E_g(0)-\frac{\alpha\Theta}{2} \left[\sqrt[p]{1+\left(\frac{2T}{\Theta}\right)^p}-1\right]$$
 
- to extract the temperature from the peak position, indicated by the arrows in Fig.\ref{fig:fig2}(a). We have first validated, using an already temperature-calibrated chip, that Pässler's formula correctly describes the peak position up to $\sim$900~K with the exact same parameters ($E_g(0) \approx 2.063 eV$, $\alpha \approx 3.47 \cdot 10^{-4} eV/K$, $\Theta \approx 200.89K$ and $p \approx 2.35$) previously found in  for WS$_2$ \cite{nagler-2018a}, except for the exciton position at 0 K which is different in encapsulated monolayers due to the change of the dielectric environment. For temperatures higher than 950 K, the blackbody radiation of the membrane becomes more intense than the PL itself in the region in which both overlap. In that case we use Planck's law to determine the sample temperature. We have checked that at a temperature at which both the PL and the blackbody radiation are discernable, both methods yield the same temperature up to $\pm X$ K (see Appendix). \\
+ to extract the temperature from the peak position, indicated by the arrows in Fig.\ref{fig:fig2}(a). We have first validated, using an already temperature-calibrated chip, that Pässler's formula correctly describes the peak position up to $\sim$900~K with the exact same parameters ($E_g(0) \approx 2.063 eV$, $\alpha \approx 3.47 \cdot 10^{-4} eV/K$, $\Theta \approx 200.89K$ and $p \approx 2.35$) previously found in  for WS$_2$ \cite{nagler-2018a}, except for the exciton position at 0 K which is different in encapsulated monolayers due to the change of the dielectric environment. For temperatures higher than 950 K, the blackbody radiation of the membrane becomes more intense than the PL itself in the region in which both overlap. In that case we use Planck's law to determine the sample temperature. We have checked that at a temperature at which both the PL and the blackbody radiation are discernable, both methods yield the same temperature up to $\pm 10$ K (see Appendix). \\
 
 
  After annealing temperatures up to $\sim$1000~K, the PL spectra at cryogenic temperature remain dominated by the intrinsic excitonic emission, apart from redshifts and intensity changes which could be attributed to strain induced by the annealing treatment.  
@@ -210,13 +210,82 @@ The data that support the findings of this study are available in Zenodo at (to 
 
 \section*{Supporting information}
 
-Additional experimental details, micro-heater calibration procedures, extended temperature-dependent PL maps, PLE datasets, TRPL analysis, and raw $g^{(2)}(\tau)$ histograms will be provided in the Supporting Information.
+\renewcommand{\thefigure}{S\arabic{figure}}
+\setcounter{figure}{0}
 
-The following files are available free of charge.
-\begin{itemize}
-  \item SI\_WS2\_annealing.pdf: Experimental methods and additional figures.
-  \item data\_WS2\_XL.zip: Selected raw PL, PLE, TRPL, and HBT data.
-\end{itemize}
+% Additional experimental details, micro-heater calibration procedures, extended temperature-dependent PL maps, PLE datasets, TRPL analysis, and raw $g^{(2)}(\tau)$ histograms will be provided in the Supporting Information.
+
+% The following files are available free of charge.
+% \begin{itemize}
+%   \item SI\_WS2\_annealing.pdf: Experimental methods and additional figures.
+%   \item data\_WS2\_XL.zip: Selected raw PL, PLE, TRPL, and HBT data.
+% \end{itemize}
+\subsection*{Annealing experiments with non encapsuated $WS_2$}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{Figures/FigureS1.pdf}
+  \caption{}
+  \label{fig:figs1}
+\end{figure}
+
+
+\subsection*{Extended temperature calibration-Black body radiation}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{Figures/FigureS2.pdf}
+  \caption{}
+  \label{fig:figs2}
+\end{figure}
+
+As shown in Figure \ref{fig:fig2} (a), temperature is calibrated based on neutral exciton energy from 7.8 K to 925 K. Figure \ref{} shows blackbody radiation of the membrane as an extended calibration for the temperature. Black body radiations are fitted by the 2nd order Plack's law:
+
+\[
+B(\nu, T) = A (h\nu)^{2} \, \frac{1}{e^{h\nu / kT} - 1}
+\]
+
+
+At 925K, estimated exciton energy fitted by Passler's model, black body radiation give us the temperature $924.4\pm3.4K$, with only a few K difference. And the estimations from the other temperature show just a feW Kelvin difference as well.
+
+\subsection*{Power dependence measurements}
+In this chapter, we are going to explain the details about saturation behavior in power dependecne mesurements in Figure \ref{fig:fig3} (b). We checked clear saturation behavior of peak intensity as a function of laser power. Because the laser used for the measurements is pulsed laser. We can write PL intensity in saturation regime as below:
+
+$$I_{PL} \, (s^{-1}) = f_{rep} \, \Phi_{y} \, \eta_{opt}
+\qquad \text{(saturation regime)}$$
+
+where $f_{rep}$ is repetition rate of laser in Hz, $\Phi_{y}$ is a quantum yield of emitter and $\eta_{opt}$ is optical collection efficiency. In saturation regime, only one photon per pulse can be absorbed because the life time of the emitter (0.9 $ns$) is much longer than laser pulse duration (40 $ps$). Therefore, the PL intensity can be expressed simply as the product of the laser repetition rate, the quantum yield, and the optical collection efficiency.
+If the emitter is not in the saturation regime, we need to consider the probability that the emitter is excited during a laser pulse ($P_{exc}$), which is equal to 1 in the saturation regime. So we can write the equation again as below:
+
+$$I_{PL} \, (s^{-1}) =P_{exc} \, f_{rep} \, \Phi_{y} \, \eta_{opt}$$
+
+If the $P_{\gamma}$ is the probability that one photon exctes the emitter, the probability that one photon doen't excite emitter can be expressed as $(1-P_{\gamma})$ and furthermore, $P_{exc}$ can be written as $P_{exc}=1-(1-P_\gamma)^{N_\gamma}$ and this equation can be mathematically approximated as:
+
+$$P_{exc}= 1 - \left( 1 - \frac{N_\gamma P_\gamma}{N_\gamma} \right)^{N_\gamma}
+\simeq 1 - e^{-N_\gamma P_\gamma} \qquad [lim_{N \to \infty} \left( 1 + \frac{x}{N} \right)^{N} \approx e^{x}]$$
+
+Experimently we can fit the power dependence data with exponantial function as below:
+
+\[
+I_{PL}(P_{avg}) \propto 1 - e^{- \frac{a}{f_{rep}} P_{avg}}
+\]
+
+By comapring two equations above, we can get $P_\gamma = \alpha hv$. From the exponantial fitting, $\alpha$ is $6.92 \times 10^{12} (J^{-1})$ as shown in Figure \ref{fig:fig3} (b) and we can calculate $P_\gamma = 2.73 \times 10^{-6}$ by multiplying photon energy ($hv$).
+
+In case of Quantum Yield ($\Phi_y$), it is very simple to calculate in the saturation regime and $\Phi_y$ is written as
+
+\[
+QY = \frac{R_{APD1} + R_{APD2}}{f_{rep}\,\eta_{opt}}
+\]
+
+where, $R_{det}$ is the detected photon rate (couts/s). Because the sum of photon counts in two single photon avalnche diodes (SPADs) is 1000 counts/s and the optical collection efficiency ($\eta_{opt}$) in our setup is $2.44 \times 10^{-4}$ considering losses in the optical components such as objective, mirrors, beam splitter and filters as well as coupling from spectrometer to SPADs, Quantum Yield is 5.25 \%.
+
+\subsection*{Raman features of monolayer $WS_2$}
+As explained in the main paper, we performed Raman spectroscopy on an pre-calibrated micro-membrane. raman 
+
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Bibliography
