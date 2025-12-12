@@ -1,0 +1,85 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{huang-2016}{article}{}
+      \name{author}{6}{}{%
+        {{hash=4fd75d443f82a3962115155d9ccf722c}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Xiaoting},
+           giveni={X\bibinitperiod}}}%
+        {{hash=9c1ecb1f7c47cf02e9e994296746328c}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a7214f06a7a972bcaa128b7ac6230775}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Tianqi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=017c10f3e28d8a82bc77f842e20828ac}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Wencai},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f1eadc30f2870b9e7f258e54ad0bef6b}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Hui-Ming},
+           giveni={H\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=35c871a543402e0fb6637adaba79b9ff}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Tianshu},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{cf992e07d4a8fb8fc574fa20e9f4ef23}
+      \strng{fullhash}{566b875c50ee67f3325b7e7860336986}
+      \strng{bibnamehash}{566b875c50ee67f3325b7e7860336986}
+      \strng{authorbibnamehash}{566b875c50ee67f3325b7e7860336986}
+      \strng{authornamehash}{cf992e07d4a8fb8fc574fa20e9f4ef23}
+      \strng{authorfullhash}{566b875c50ee67f3325b7e7860336986}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{1}
+      \field{title}{Quantitative {{Analysis}} of {{Temperature Dependence}} of {{Raman}} Shift of Monolayer {{WS2}}}
+      \field{volume}{6}
+      \field{year}{2016}
+      \field{pages}{32236}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/srep32236
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

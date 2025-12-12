@@ -1,0 +1,182 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Supporting Information (separate document)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\usepackage{graphicx}
+\usepackage{float}
+
+\usepackage{chemformula}
+\usepackage[version=4]{mhchem}
+
+% References (SI-only)
+\usepackage[style=chem-acs]{biblatex}
+% (1) SI 전용 bib 파일을 쓰고 싶으면 si.bib를 만들어서 아래처럼:
+% \addbibresource{si.bib}
+% (2) 본문과 같은 bib를 공유하고 싶으면 그대로 acs-template.bib:
+\addbibresource{SI.bib}
+
+% --- Figure numbering: S1, S2, ...
+\renewcommand{\thefigure}{S\arabic{figure}}
+\setcounter{figure}{0}
+
+% (선택) Table도 S1, S2로 하고 싶으면:
+% \renewcommand{\thetable}{S\arabic{table}}
+% \setcounter{table}{0}
+
+\begin{document}
+
+\section*{Supporting Information}
+% Optional: SI 제목/논문제목 넣고 싶으면:
+% \textbf{Thermally-assisted generation of Single-Photon Emitters in monolayer WS$_2$}
+
+\subsection*{Annealing experiments WS$_2$}
+
+As discussed in the main text, we initially performed annealing experiments on non-encapsulated monolayer WS$_2$. Figure \ref{fig:figs1} summarizes the results of these experiments.
+As shown in Figure~S1(a), the emergence of a new emission peak in the PL spectra is observed starting from an annealing temperature of 1000~K. With increasing annealing temperature, the emission peak becomes progressively narrower.
+Figure~S1(b) displays the narrowest emission peak obtained when scanning the sample, with a measured linewidth of 12~meV.
+In addition, power-dependent measurements reveal a clear saturation behavior of the emission intensity, which is characteristic of defect-related emission (Figure \ref{fig:figs1} (c)).
+These results demonstrate that thermal annealing successfully induces localized defect states in the WS$_2$ monolayer. The defect-related emission peak is located approximately 220~meV below the neutral exciton energy.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{Figures/FigureS1.pdf}
+  \caption{(a) Low-temperature ($T = 30$ K) PL spectra of non-encapsulated $WS_2$ monolayer measured after annealing at different temperatures .
+(b) Narrowest peak $X_L$ in the PL spectrum obtained after annealing at 1200 K.
+(c) Power-dependent PL intensity of the XL peak measured using a CW laser ($\lambda_{\mathrm{laser}} = 570$ nm).}
+  \label{fig:figs1}
+\end{figure}
+
+The evolution of the PL spectra under thermal annealing was investigated in many other samples. Among them, this Figure \ref{fig:figs5} shows the emergence of narrow emission after 800K annealing. The PL spectra remain nearly unchanged up to 700~K; however, a new emission peak emerges at 800~K and becomes spectrally isolated after annealing at 900~K, as shown in Figure \ref{fig:figs5} (a)
+This emission line appears approximately 120~meV below the neutral exciton $X^0_A$, indicating a defect-related origin and suggesting that it likely corresponds to the same emission observed in non-encapsulated samples. The neutral exciton energy is more red-shifted at higher annealing temperature. 
+The reduced energy separation with respect to the neutral exciton may be attributed to the well-known reduction of exciton binding energy in hBN-encapsulated monolayers, typically by about a factor of two.
+To further support this assignment, power-dependent PL measurements were performed on the newly emerging peak. As shown in Figure \ref{fig:figs5} (c), the emission intensity initially increases with excitation power and saturates above approximately 6~$\mu$W, which is a characteristic signature of emission from a finite density of localized defect states.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{Figures/FigureS5.pdf}
+  \caption{a) Low-temperature PL spectra of an hBN-encapsulated WS$2$ monolayer measured at $T = 3.6$ K after annealing at 400, 500, 800, and 900 K for 30 min. ($\lambda_{laser} = 514.5$ nm (CW), $P_{\mathrm{laser}} = 1~\mu$W.)
+(b) PL spectrum recorded after annealing at 900 K, showing the emergence of a new narrow emission peak $X_L$ located approximately 120 meV below the neutral exciton $X^0_A$.
+(c) Power-dependent PL intensity of the $X_L$ peak.}
+  \label{fig:figs5}
+\end{figure}
+
+\subsection*{Extended temperature calibration using blackbody radiation}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{Figures/FigureS2.pdf}
+  \caption{Blackbody radiation spectra of the suspended membrane used for extended temperature calibration at high temperatures. The spectra are fitted using Planck’s law. (a)From 896 K to 1056 K, (b) from 1092 K to 1211 K
+}
+  \label{fig:figs2}
+\end{figure}
+
+As shown in Figure~\ref{fig:fig2}(a), the temperature is calibrated using the neutral exciton energy from 7.8~K up to 925~K.  
+Figure~\ref{fig:figs2} presents the blackbody radiation emitted by the membrane, which provides an extended temperature calibration at elevated temperatures.  
+The blackbody spectra are fitted using the second-order Planck’s law:
+
+\[
+B(\nu, T) = A (h\nu)^{2} \, \frac{1}{e^{h\nu / kT} - 1}.
+\]
+
+At 925~K, the temperature estimated from the blackbody radiation fit yields $924.4 \pm 3.4$~K, in excellent agreement with the exciton-based calibration obtained from Passler’s model.  
+For the remaining temperature points, the discrepancy between the two calibration methods remains within only a few kelvin.
+
+
+\subsection*{Power-dependence measurements}
+
+In this section, we provide details on the saturation behavior observed in the power-dependent measurements shown in Figure~\ref{fig:fig3}(b).  
+A clear saturation of the PL peak intensity is observed as a function of excitation power. Since the excitation source is a pulsed laser, the PL intensity in the saturation regime can be expressed as
+
+\[
+I_{PL} \, (\mathrm{s}^{-1}) = f_{rep} \, \Phi_{y} \, \eta_{opt},
+\qquad \text{(saturation regime)}
+\]
+
+where $f_{rep}$ is the laser repetition rate, $\Phi_{y}$ is the quantum yield of the emitter, and $\eta_{opt}$ is the optical collection efficiency.  
+In the saturation regime, only one photon can be absorbed per laser pulse, as the emitter lifetime (0.9~ns) is much longer than the laser pulse duration (40~ps).  
+Therefore, the PL intensity is simply given by the product of the laser repetition rate, the quantum yield, and the optical collection efficiency.
+
+Outside the saturation regime, the probability that the emitter is excited during a laser pulse ($P_{exc}$) must be considered. The PL intensity can then be written as
+
+\[
+I_{PL} \, (\mathrm{s}^{-1}) = P_{exc} \, f_{rep} \, \Phi_{y} \, \eta_{opt}.
+\]
+
+If $P_{\gamma}$ denotes the probability that a single photon excites the emitter, the excitation probability can be expressed as
+
+\[
+P_{exc} = 1 - (1 - P_{\gamma})^{N_{\gamma}},
+\]
+
+which can be approximated as
+
+\[
+P_{exc}
+\simeq 1 - e^{-N_{\gamma} P_{\gamma}},
+\qquad
+\left[ \lim_{N \to \infty} \left( 1 + \frac{x}{N} \right)^N \approx e^x \right].
+\]
+
+Experimentally, the power-dependent PL intensity can be fitted using the exponential form
+
+\[
+I_{PL}(P_{avg}) \propto 1 - e^{- \frac{a}{f_{rep}} P_{avg}}.
+\]
+
+By comparing the two expressions above, we obtain $P_{\gamma} = \alpha h\nu$.  
+From the exponential fit shown in Figure~\ref{fig:fig3}(b), $\alpha = 6.92 \times 10^{12}~\mathrm{J}^{-1}$, which yields $P_{\gamma} = 2.73 \times 10^{-6}$ when multiplied by the photon energy $h\nu$.
+
+The quantum yield $\Phi_y$ can be directly extracted in the saturation regime as
+
+\[
+QY = \frac{R_{APD1} + R_{APD2}}{f_{rep}\,\eta_{opt}},
+\]
+
+where $R_{APD1}$ and $R_{APD2}$ are the photon count rates detected by the two single-photon avalanche diodes (SPADs).  
+Using a total detected count rate of 1000~counts/s and an optical collection efficiency of $\eta_{opt} = 2.44 \times 10^{-4}$—which accounts for losses in the objective, mirrors, beam splitter, filters, and coupling from the spectrometer to the SPADs—the resulting quantum yield is estimated to be **5.25\%**.
+
+
+\subsection*{Raman features of monolayer WS$_2$}
+
+Raman spectroscopy was performed on a pre-calibrated micro-membrane, as described in the main text.  
+Figure~\ref{fig:figs3} shows the evolution of the Raman spectra as a function of temperature from 25~°C to 1000~°C under vacuum conditions.  
+Both the $E_{2g}$ (in-plane vibrational mode) and $A_{1g}$ (out-of-plane vibrational mode) peaks are observed in the Stokes region.  
+In the anti-Stokes region, only the $A_{1g}$ peak is detected, as the $E_{2g}$ peak is suppressed by the notch filter.
+
+With increasing temperature, the Raman peak intensities gradually decrease and eventually vanish at 1000~°C (1273~K), indicating that the WS$_2$ monolayer undergoes thermal degradation above this temperature.  
+This result confirms that annealing can be safely performed at temperatures below 1000~°C.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{Figures/FigureS3.pdf}
+  \caption{ Temperature-dependent Raman spectra of monolayer WS$_2$ measured under vacuum. (a) Raman spectra recorded from 25~$^\circ$C to 300~$^\circ$C. (b) Raman spectra recorded from 350~$^\circ$C to 650~$^\circ$C. (c) Raman spectra recorded from 700~$^\circ$C to 1000~$^\circ$C. The $E_{2g}$ and $A_{1g}$ modes are observed in the Stokes region, while only the $A_{1g}$ mode appears in the anti-Stokes region.
+}
+
+  \label{fig:figs3}
+\end{figure}
+
+n addition to the intensity reduction, both Raman peak positions exhibit a redshift with increasing temperature.
+Figure~\ref{fig:figs4} displays the temperature dependence of the $A_{1g}$ mode in both the Stokes and anti-Stokes regions.
+A linear behavior is observed for both cases, with the Stokes $A_{1g}$ mode showing a slope of $-0.0139~\mathrm{cm^{-1}/^{\circ}C}$.
+This value is comparable to previously reported results, where a linear fit of the Raman shift was obtained in the temperature range from 100~K to 600~K with a slope of approximately $-0.0121~\mathrm{cm^{-1}/K}$ \cite{huang-2016}.
+The close agreement in slope confirms the consistency of our measurements, while the extended temperature range investigated here allows for a clearer assessment of the linear temperature dependence of the $A_{1g}$ mode.
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{Figures/FigureS4.pdf}
+  \caption{Temperature dependence of the $A_{1g}$ Raman mode position in (a) the Stokes and (b) anti-Stokes regions, showing a linear redshift with increasing temperature.}
+
+  \label{fig:figs4}
+\end{figure}
+
+\printbibliography
+
+\end{document}
