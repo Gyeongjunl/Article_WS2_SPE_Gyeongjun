@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{none/global//global/global}
-    \entry{velicky-2017}{article}{}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{velicky-2017}{article}{}{}
       \name{author}{2}{}{%
         {{hash=43a4377ee5e6cd96edddfb8cd3e55dfc}{%
            family={Velický},
@@ -34,10 +34,12 @@
       }
       \strng{namehash}{a44c887580f8dbeb1ec194dd7aea59f9}
       \strng{fullhash}{a44c887580f8dbeb1ec194dd7aea59f9}
+      \strng{fullhashraw}{a44c887580f8dbeb1ec194dd7aea59f9}
       \strng{bibnamehash}{a44c887580f8dbeb1ec194dd7aea59f9}
       \strng{authorbibnamehash}{a44c887580f8dbeb1ec194dd7aea59f9}
       \strng{authornamehash}{a44c887580f8dbeb1ec194dd7aea59f9}
       \strng{authorfullhash}{a44c887580f8dbeb1ec194dd7aea59f9}
+      \strng{authorfullhashraw}{a44c887580f8dbeb1ec194dd7aea59f9}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -55,7 +57,7 @@
       \verb 10.1016/j.apmt.2017.05.003
       \endverb
     \endentry
-    \entry{ugeda-2014}{article}{}
+    \entry{ugeda-2014}{article}{}{}
       \name{author}{13}{}{%
         {{hash=0efedb85a75ecd1ceaf0e5a75a52818f}{%
            family={Ugeda},
@@ -128,10 +130,12 @@
       }
       \strng{namehash}{1c6194df8827970e000ba96fb1940a15}
       \strng{fullhash}{03b9659b70b4a1ab7e0d97331b6f4b15}
+      \strng{fullhashraw}{03b9659b70b4a1ab7e0d97331b6f4b15}
       \strng{bibnamehash}{03b9659b70b4a1ab7e0d97331b6f4b15}
       \strng{authorbibnamehash}{03b9659b70b4a1ab7e0d97331b6f4b15}
       \strng{authornamehash}{1c6194df8827970e000ba96fb1940a15}
       \strng{authorfullhash}{03b9659b70b4a1ab7e0d97331b6f4b15}
+      \strng{authorfullhashraw}{03b9659b70b4a1ab7e0d97331b6f4b15}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -150,7 +154,7 @@
       \verb 10.1038/nmat4061
       \endverb
     \endentry
-    \entry{goryca-2019}{article}{}
+    \entry{goryca-2019}{article}{}{}
       \name{author}{11}{}{%
         {{hash=65539b5d890655045635e3c28ed6a64c}{%
            family={Goryca},
@@ -213,10 +217,12 @@
       }
       \strng{namehash}{32c993b2f53c4f9e2ebe3d92e08cde1b}
       \strng{fullhash}{c1e4900082bef7fb0b1c7207aaff7c67}
+      \strng{fullhashraw}{c1e4900082bef7fb0b1c7207aaff7c67}
       \strng{bibnamehash}{c1e4900082bef7fb0b1c7207aaff7c67}
       \strng{authorbibnamehash}{c1e4900082bef7fb0b1c7207aaff7c67}
       \strng{authornamehash}{32c993b2f53c4f9e2ebe3d92e08cde1b}
       \strng{authorfullhash}{c1e4900082bef7fb0b1c7207aaff7c67}
+      \strng{authorfullhashraw}{c1e4900082bef7fb0b1c7207aaff7c67}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -235,7 +241,7 @@
       \verb 10.1038/s41467-019-12180-y
       \endverb
     \endentry
-    \entry{liang-2021}{article}{}
+    \entry{liang-2021}{article}{}{}
       \name{author}{5}{}{%
         {{hash=8be794306e98874433e3300ca23ae3b2}{%
            family={Liang},
@@ -268,10 +274,12 @@
       }
       \strng{namehash}{3600d301e3de874a7f482e278d236f4f}
       \strng{fullhash}{423dd48cff28927d85cc522a32195cb7}
+      \strng{fullhashraw}{423dd48cff28927d85cc522a32195cb7}
       \strng{bibnamehash}{423dd48cff28927d85cc522a32195cb7}
       \strng{authorbibnamehash}{423dd48cff28927d85cc522a32195cb7}
       \strng{authornamehash}{3600d301e3de874a7f482e278d236f4f}
       \strng{authorfullhash}{423dd48cff28927d85cc522a32195cb7}
+      \strng{authorfullhashraw}{423dd48cff28927d85cc522a32195cb7}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
@@ -289,7 +297,7 @@
       \verb 10.1021/acsnano.0c09666
       \endverb
     \endentry
-    \entry{carbone-2025}{article}{}
+    \entry{carbone-2025}{article}{}{}
       \name{author}{9}{}{%
         {{hash=ccac3c36eff82ad1c5809960aeea63bd}{%
            family={Carbone},
@@ -339,10 +347,12 @@
       }
       \strng{namehash}{d79ac45d5653193afa033ff758efa982}
       \strng{fullhash}{25c91027687dc579019befec1512682a}
+      \strng{fullhashraw}{25c91027687dc579019befec1512682a}
       \strng{bibnamehash}{25c91027687dc579019befec1512682a}
       \strng{authorbibnamehash}{25c91027687dc579019befec1512682a}
       \strng{authornamehash}{d79ac45d5653193afa033ff758efa982}
       \strng{authorfullhash}{25c91027687dc579019befec1512682a}
+      \strng{authorfullhashraw}{25c91027687dc579019befec1512682a}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -360,7 +370,7 @@
       \verb 10.1063/5.0278132
       \endverb
     \endentry
-    \entry{tonndorf-2015}{article}{}
+    \entry{tonndorf-2015}{article}{}{}
       \name{author}{10}{}{%
         {{hash=bd9f51c332fb73a89a2037947b2eae9c}{%
            family={Tonndorf},
@@ -422,10 +432,12 @@
       }
       \strng{namehash}{c26c7377a08086c1e9830a9913d01451}
       \strng{fullhash}{35a2f031fe1c92a12904a5393f6d36b1}
+      \strng{fullhashraw}{35a2f031fe1c92a12904a5393f6d36b1}
       \strng{bibnamehash}{35a2f031fe1c92a12904a5393f6d36b1}
       \strng{authorbibnamehash}{35a2f031fe1c92a12904a5393f6d36b1}
       \strng{authornamehash}{c26c7377a08086c1e9830a9913d01451}
       \strng{authorfullhash}{35a2f031fe1c92a12904a5393f6d36b1}
+      \strng{authorfullhashraw}{35a2f031fe1c92a12904a5393f6d36b1}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
@@ -444,7 +456,7 @@
       \verb 10.1364/OPTICA.2.000347
       \endverb
     \endentry
-    \entry{srivastava-2015}{article}{}
+    \entry{srivastava-2015}{article}{}{}
       \name{author}{6}{}{%
         {{hash=f71deaa67db8d9b4df2b5dbe14f31742}{%
            family={Srivastava},
@@ -482,10 +494,12 @@
       }
       \strng{namehash}{28dff5123881bc80d6f51f401c139b96}
       \strng{fullhash}{87314092c439a0de30602cd5f0be17b9}
+      \strng{fullhashraw}{87314092c439a0de30602cd5f0be17b9}
       \strng{bibnamehash}{87314092c439a0de30602cd5f0be17b9}
       \strng{authorbibnamehash}{87314092c439a0de30602cd5f0be17b9}
       \strng{authornamehash}{28dff5123881bc80d6f51f401c139b96}
       \strng{authorfullhash}{87314092c439a0de30602cd5f0be17b9}
+      \strng{authorfullhashraw}{87314092c439a0de30602cd5f0be17b9}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
@@ -504,7 +518,7 @@
       \verb 10.1038/nnano.2015.60
       \endverb
     \endentry
-    \entry{hotger-2023}{article}{}
+    \entry{hotger-2023}{article}{}{}
       \name{author}{18}{}{%
         {{hash=7317afc878610847555d3cc4501b452e}{%
            family={Hötger},
@@ -602,10 +616,12 @@
       }
       \strng{namehash}{23ad2b4c9fbea18980638970aa547a5a}
       \strng{fullhash}{e2b4f75f5e2444774fa2a1c1388d9421}
+      \strng{fullhashraw}{e2b4f75f5e2444774fa2a1c1388d9421}
       \strng{bibnamehash}{23ad2b4c9fbea18980638970aa547a5a}
       \strng{authorbibnamehash}{23ad2b4c9fbea18980638970aa547a5a}
       \strng{authornamehash}{23ad2b4c9fbea18980638970aa547a5a}
       \strng{authorfullhash}{e2b4f75f5e2444774fa2a1c1388d9421}
+      \strng{authorfullhashraw}{e2b4f75f5e2444774fa2a1c1388d9421}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
@@ -624,7 +640,7 @@
       \verb 10.1038/s41699-023-00392-2
       \endverb
     \endentry
-    \entry{barthelmi-2020}{article}{}
+    \entry{barthelmi-2020}{article}{}{}
       \name{author}{21}{}{%
         {{hash=bbc80929974673caaa49dd7af2a9ccfa}{%
            family={Barthelmi},
@@ -734,10 +750,12 @@
       }
       \strng{namehash}{d42e193d5e070909586f984c4130f267}
       \strng{fullhash}{b0750993dd4c07b621f6eaca39415edf}
+      \strng{fullhashraw}{b0750993dd4c07b621f6eaca39415edf}
       \strng{bibnamehash}{d42e193d5e070909586f984c4130f267}
       \strng{authorbibnamehash}{d42e193d5e070909586f984c4130f267}
       \strng{authornamehash}{d42e193d5e070909586f984c4130f267}
       \strng{authorfullhash}{b0750993dd4c07b621f6eaca39415edf}
+      \strng{authorfullhashraw}{b0750993dd4c07b621f6eaca39415edf}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
@@ -755,7 +773,7 @@
       \verb 10.1063/5.0018557
       \endverb
     \endentry
-    \entry{micevic-2022}{article}{}
+    \entry{micevic-2022}{article}{}{}
       \name{author}{11}{}{%
         {{hash=5861010ec333cb1f7ddcf7c1e030bf91}{%
            family={Micevic},
@@ -815,10 +833,12 @@
       }
       \strng{namehash}{139264ebfaf9d05a2f1ca3bb8fc04f45}
       \strng{fullhash}{3025a4e690c09ce63980fbda99f38ec5}
+      \strng{fullhashraw}{3025a4e690c09ce63980fbda99f38ec5}
       \strng{bibnamehash}{3025a4e690c09ce63980fbda99f38ec5}
       \strng{authorbibnamehash}{3025a4e690c09ce63980fbda99f38ec5}
       \strng{authornamehash}{139264ebfaf9d05a2f1ca3bb8fc04f45}
       \strng{authorfullhash}{3025a4e690c09ce63980fbda99f38ec5}
+      \strng{authorfullhashraw}{3025a4e690c09ce63980fbda99f38ec5}
       \field{sortinit}{8}
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
@@ -836,7 +856,7 @@
       \verb 10.1063/5.0118697
       \endverb
     \endentry
-    \entry{fournier-2021}{article}{}
+    \entry{fournier-2021}{article}{}{}
       \name{author}{12}{}{%
         {{hash=cb6ab0585d533e1fc830f7c9d0577e5f}{%
            family={Fournier},
@@ -904,10 +924,12 @@
       }
       \strng{namehash}{7bea8368dc1138c734bd025be9d02771}
       \strng{fullhash}{6fc74f43120563740d7f0850c21a2f4b}
+      \strng{fullhashraw}{6fc74f43120563740d7f0850c21a2f4b}
       \strng{bibnamehash}{6fc74f43120563740d7f0850c21a2f4b}
       \strng{authorbibnamehash}{6fc74f43120563740d7f0850c21a2f4b}
       \strng{authornamehash}{7bea8368dc1138c734bd025be9d02771}
       \strng{authorfullhash}{6fc74f43120563740d7f0850c21a2f4b}
+      \strng{authorfullhashraw}{6fc74f43120563740d7f0850c21a2f4b}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
@@ -926,7 +948,7 @@
       \verb 10.1038/s41467-021-24019-6
       \endverb
     \endentry
-    \entry{mitterreiter-2021}{article}{}
+    \entry{mitterreiter-2021}{article}{}{}
       \name{author}{22}{}{%
         {{hash=0962a3b7462e8a1ef487e5a35827282f}{%
            family={Mitterreiter},
@@ -1044,10 +1066,12 @@
       }
       \strng{namehash}{c165321fe2e70c1c9fdbbe672c69742a}
       \strng{fullhash}{8916bb7d4134de42c292e535b2e0c761}
+      \strng{fullhashraw}{8916bb7d4134de42c292e535b2e0c761}
       \strng{bibnamehash}{c165321fe2e70c1c9fdbbe672c69742a}
       \strng{authorbibnamehash}{c165321fe2e70c1c9fdbbe672c69742a}
       \strng{authornamehash}{c165321fe2e70c1c9fdbbe672c69742a}
       \strng{authorfullhash}{8916bb7d4134de42c292e535b2e0c761}
+      \strng{authorfullhashraw}{8916bb7d4134de42c292e535b2e0c761}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1066,7 +1090,7 @@
       \verb 10.1038/s41467-021-24102-y
       \endverb
     \endentry
-    \entry{fartas-2025}{article}{}
+    \entry{fartas-2025}{article}{}{}
       \name{author}{6}{}{%
         {{hash=8d49e0b9cd5a5d081a9007087c9edc31}{%
            family={Fartas},
@@ -1101,10 +1125,12 @@
       }
       \strng{namehash}{b2bcbdeb8534afba21ab45a47ae02b2d}
       \strng{fullhash}{41f81d5d1b67726150be428701e4b8be}
+      \strng{fullhashraw}{41f81d5d1b67726150be428701e4b8be}
       \strng{bibnamehash}{41f81d5d1b67726150be428701e4b8be}
       \strng{authorbibnamehash}{41f81d5d1b67726150be428701e4b8be}
       \strng{authornamehash}{b2bcbdeb8534afba21ab45a47ae02b2d}
       \strng{authorfullhash}{41f81d5d1b67726150be428701e4b8be}
+      \strng{authorfullhashraw}{41f81d5d1b67726150be428701e4b8be}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1122,7 +1148,7 @@
       \verb 10.1063/5.0261073
       \endverb
     \endentry
-    \entry{castellanos-gomez-2014}{article}{}
+    \entry{castellanos-gomez-2014}{article}{}{}
       \name{author}{7}{}{%
         {{hash=7554bf1e8c6cb34c29797efcd88c9b44}{%
            family={{Castellanos-Gomez}},
@@ -1165,10 +1191,12 @@
       }
       \strng{namehash}{28cfa98ea73873b372596c113af14c74}
       \strng{fullhash}{155a6f734a9dd0f721e1690acc634f1b}
+      \strng{fullhashraw}{155a6f734a9dd0f721e1690acc634f1b}
       \strng{bibnamehash}{155a6f734a9dd0f721e1690acc634f1b}
       \strng{authorbibnamehash}{155a6f734a9dd0f721e1690acc634f1b}
       \strng{authornamehash}{28cfa98ea73873b372596c113af14c74}
       \strng{authorfullhash}{155a6f734a9dd0f721e1690acc634f1b}
+      \strng{authorfullhashraw}{155a6f734a9dd0f721e1690acc634f1b}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1187,7 +1215,7 @@
       \verb 10.1088/2053-1583/1/1/011002
       \endverb
     \endentry
-    \entry{cadiz-2017}{article}{}
+    \entry{cadiz-2017}{article}{}{}
       \name{author}{16}{}{%
         {{hash=fd9e7c7e75cccc534baa05698a8df6f1}{%
            family={Cadiz},
@@ -1275,10 +1303,12 @@
       }
       \strng{namehash}{9934e21967a1ca85190135b495ea1e8d}
       \strng{fullhash}{0636dbdfbe8514285b5ba2a80d1f39d7}
+      \strng{fullhashraw}{0636dbdfbe8514285b5ba2a80d1f39d7}
       \strng{bibnamehash}{9934e21967a1ca85190135b495ea1e8d}
       \strng{authorbibnamehash}{9934e21967a1ca85190135b495ea1e8d}
       \strng{authornamehash}{9934e21967a1ca85190135b495ea1e8d}
       \strng{authorfullhash}{0636dbdfbe8514285b5ba2a80d1f39d7}
+      \strng{authorfullhashraw}{0636dbdfbe8514285b5ba2a80d1f39d7}
       \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -1296,7 +1326,7 @@
       \verb 10.1103/PhysRevX.7.021026
       \endverb
     \endentry
-    \entry{zinkiewicz-2021b}{article}{}
+    \entry{zinkiewicz-2021b}{article}{}{}
       \name{author}{15}{}{%
         {{hash=cec2d991fe7b7683063593d107dd6e28}{%
            family={Zinkiewicz},
@@ -1379,10 +1409,12 @@
       }
       \strng{namehash}{dc732265454efefffeab752d0dbab54c}
       \strng{fullhash}{08637b8b039c10acccb6b248a14db801}
+      \strng{fullhashraw}{08637b8b039c10acccb6b248a14db801}
       \strng{bibnamehash}{08637b8b039c10acccb6b248a14db801}
       \strng{authorbibnamehash}{08637b8b039c10acccb6b248a14db801}
       \strng{authornamehash}{dc732265454efefffeab752d0dbab54c}
       \strng{authorfullhash}{08637b8b039c10acccb6b248a14db801}
+      \strng{authorfullhashraw}{08637b8b039c10acccb6b248a14db801}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1400,7 +1432,7 @@
       \verb 10.1021/acs.nanolett.0c05021
       \endverb
     \endentry
-    \entry{paur-2019}{article}{}
+    \entry{paur-2019}{article}{}{}
       \name{author}{6}{}{%
         {{hash=6e84a8884eaf3acb1a26e0e9e35d9e6f}{%
            family={Paur},
@@ -1438,10 +1470,12 @@
       }
       \strng{namehash}{a2f36c88da721c874c086a3ac1b31174}
       \strng{fullhash}{0d4ab33f7f975d5cefae7ccbb1e33612}
+      \strng{fullhashraw}{0d4ab33f7f975d5cefae7ccbb1e33612}
       \strng{bibnamehash}{0d4ab33f7f975d5cefae7ccbb1e33612}
       \strng{authorbibnamehash}{0d4ab33f7f975d5cefae7ccbb1e33612}
       \strng{authornamehash}{a2f36c88da721c874c086a3ac1b31174}
       \strng{authorfullhash}{0d4ab33f7f975d5cefae7ccbb1e33612}
+      \strng{authorfullhashraw}{0d4ab33f7f975d5cefae7ccbb1e33612}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1460,7 +1494,7 @@
       \verb 10.1038/s41467-019-09781-y
       \endverb
     \endentry
-    \entry{brainard-1968}{book}{}
+    \entry{brainard-1968}{book}{}{}
       \name{author}{1}{}{%
         {{hash=fc9e842a01fa04907479177a7590ffda}{%
            family={Brainard},
@@ -1473,10 +1507,12 @@
       }
       \strng{namehash}{fc9e842a01fa04907479177a7590ffda}
       \strng{fullhash}{fc9e842a01fa04907479177a7590ffda}
+      \strng{fullhashraw}{fc9e842a01fa04907479177a7590ffda}
       \strng{bibnamehash}{fc9e842a01fa04907479177a7590ffda}
       \strng{authorbibnamehash}{fc9e842a01fa04907479177a7590ffda}
       \strng{authornamehash}{fc9e842a01fa04907479177a7590ffda}
       \strng{authorfullhash}{fc9e842a01fa04907479177a7590ffda}
+      \strng{authorfullhashraw}{fc9e842a01fa04907479177a7590ffda}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1485,7 +1521,7 @@
       \field{title}{The {{Thermal Stability}} and {{Friction}} of the {{Disulfides}}, {{Diselenides}}, and {{Ditellurides}} of {{Molybdenum}} and {{Tungsten}} in {{Vacuum}} (10{\=9} to 10{\=6} {{Torr}})}
       \field{year}{1968}
     \endentry
-    \entry{passler-1997}{article}{}
+    \entry{passler-1997}{article}{}{}
       \name{author}{1}{}{%
         {{hash=7b406e0687ca2d41b246109695328219}{%
            family={Pässler},
@@ -1495,10 +1531,12 @@
       }
       \strng{namehash}{7b406e0687ca2d41b246109695328219}
       \strng{fullhash}{7b406e0687ca2d41b246109695328219}
+      \strng{fullhashraw}{7b406e0687ca2d41b246109695328219}
       \strng{bibnamehash}{7b406e0687ca2d41b246109695328219}
       \strng{authorbibnamehash}{7b406e0687ca2d41b246109695328219}
       \strng{authornamehash}{7b406e0687ca2d41b246109695328219}
       \strng{authorfullhash}{7b406e0687ca2d41b246109695328219}
+      \strng{authorfullhashraw}{7b406e0687ca2d41b246109695328219}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1516,7 +1554,7 @@
       \verb 10.1002/1521-3951(199703)200:1<155::AID-PSSB155>3.0.CO;2-3
       \endverb
     \endentry
-    \entry{nagler-2018a}{article}{}
+    \entry{nagler-2018a}{article}{}{}
       \name{author}{11}{}{%
         {{hash=a10664b01b6e57241beb1ce74383fed2}{%
            family={Nagler},
@@ -1579,10 +1617,12 @@
       }
       \strng{namehash}{2289d5cd837663dfba2f231243486816}
       \strng{fullhash}{d0518031f20741eedc8b0275ba645453}
+      \strng{fullhashraw}{d0518031f20741eedc8b0275ba645453}
       \strng{bibnamehash}{d0518031f20741eedc8b0275ba645453}
       \strng{authorbibnamehash}{d0518031f20741eedc8b0275ba645453}
       \strng{authornamehash}{2289d5cd837663dfba2f231243486816}
       \strng{authorfullhash}{d0518031f20741eedc8b0275ba645453}
+      \strng{authorfullhashraw}{d0518031f20741eedc8b0275ba645453}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1599,7 +1639,7 @@
       \verb 10.1103/PhysRevLett.121.057402
       \endverb
     \endentry
-    \entry{guo-2015}{article}{}
+    \entry{guo-2015}{article}{}{}
       \name{author}{3}{}{%
         {{hash=cdfee844c95f916f2619a26fab25991b}{%
            family={Guo},
@@ -1619,10 +1659,12 @@
       }
       \strng{namehash}{1f417b2035eec64f5143fa5d8fd92b80}
       \strng{fullhash}{4d12a70f8d029e8cb7d3c23c1faaa714}
+      \strng{fullhashraw}{4d12a70f8d029e8cb7d3c23c1faaa714}
       \strng{bibnamehash}{4d12a70f8d029e8cb7d3c23c1faaa714}
       \strng{authorbibnamehash}{4d12a70f8d029e8cb7d3c23c1faaa714}
       \strng{authornamehash}{1f417b2035eec64f5143fa5d8fd92b80}
       \strng{authorfullhash}{4d12a70f8d029e8cb7d3c23c1faaa714}
+      \strng{authorfullhashraw}{4d12a70f8d029e8cb7d3c23c1faaa714}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1640,7 +1682,7 @@
       \verb 10.1063/1.4919524
       \endverb
     \endentry
-    \entry{sun-2024}{article}{}
+    \entry{sun-2024}{article}{}{}
       \name{author}{18}{}{%
         {{hash=42a1dea6a600fff9ae839a6d1e3c8950}{%
            family={Sun},
@@ -1738,10 +1780,12 @@
       }
       \strng{namehash}{3f357a7f88f14f5a44d6cb7680d51316}
       \strng{fullhash}{a957eb9eb88ee64a734396cdd4daf241}
+      \strng{fullhashraw}{a957eb9eb88ee64a734396cdd4daf241}
       \strng{bibnamehash}{3f357a7f88f14f5a44d6cb7680d51316}
       \strng{authorbibnamehash}{3f357a7f88f14f5a44d6cb7680d51316}
       \strng{authornamehash}{3f357a7f88f14f5a44d6cb7680d51316}
       \strng{authorfullhash}{a957eb9eb88ee64a734396cdd4daf241}
+      \strng{authorfullhashraw}{a957eb9eb88ee64a734396cdd4daf241}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1760,7 +1804,79 @@
       \verb 10.1038/s41467-024-53880-4
       \endverb
     \endentry
-    \entry{cadiz-2016a}{article}{}
+    \entry{vancso-2016}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=fcb3d915c3f234c1a6fa2eea2db7105f}{%
+           family={Vancsó},
+           familyi={V\bibinitperiod},
+           given={Péter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f18625f2c023cc7ba0db22cab3887421}{%
+           family={Magda},
+           familyi={M\bibinitperiod},
+           given={Gábor\bibnamedelima Zsolt},
+           giveni={G\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=ba2fca1d6a7500797246992317357638}{%
+           family={Pető},
+           familyi={P\bibinitperiod},
+           given={János},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f224c58629e7a7e87506e6e7feb5aaf2}{%
+           family={Noh},
+           familyi={N\bibinitperiod},
+           given={Ji-Young},
+           giveni={J\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=d468a472e7d7738ad32216f602df3d90}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Yong-Sung},
+           giveni={Y\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=a946048fe11e906e75063545cbc14a0f}{%
+           family={Hwang},
+           familyi={H\bibinitperiod},
+           given={Chanyong},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1fee8834dd89d466c9e45149960eee7a}{%
+           family={Biró},
+           familyi={B\bibinitperiod},
+           given={László\bibnamedelima P.},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=0364228916b18de45c53603a03709ac4}{%
+           family={Tapasztó},
+           familyi={T\bibinitperiod},
+           given={Levente},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{8c59f0211aee5dbb876b787d634f1e13}
+      \strng{fullhash}{9a8c0f6054f216af8d88252a47ab2866}
+      \strng{fullhashraw}{9a8c0f6054f216af8d88252a47ab2866}
+      \strng{bibnamehash}{9a8c0f6054f216af8d88252a47ab2866}
+      \strng{authorbibnamehash}{9a8c0f6054f216af8d88252a47ab2866}
+      \strng{authornamehash}{8c59f0211aee5dbb876b787d634f1e13}
+      \strng{authorfullhash}{9a8c0f6054f216af8d88252a47ab2866}
+      \strng{authorfullhashraw}{9a8c0f6054f216af8d88252a47ab2866}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{The Intrinsic Defect Structure of Exfoliated {{MoS2}} Single Layers Revealed by {{Scanning Tunneling Microscopy}}}
+      \field{volume}{6}
+      \field{year}{2016}
+      \field{pages}{29726}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/srep29726
+      \endverb
+    \endentry
+    \entry{cadiz-2016a}{article}{}{}
       \name{author}{16}{}{%
         {{hash=4a7ed7a5c87b0bb45de52990338f3515}{%
            family={Cadiz},
@@ -1848,10 +1964,12 @@
       }
       \strng{namehash}{2e5d92918930428e1834e5c0ba7d5f61}
       \strng{fullhash}{87eb6c0756f9de59e1f0e548bcafdfc5}
+      \strng{fullhashraw}{87eb6c0756f9de59e1f0e548bcafdfc5}
       \strng{bibnamehash}{2e5d92918930428e1834e5c0ba7d5f61}
       \strng{authorbibnamehash}{2e5d92918930428e1834e5c0ba7d5f61}
       \strng{authornamehash}{2e5d92918930428e1834e5c0ba7d5f61}
       \strng{authorfullhash}{87eb6c0756f9de59e1f0e548bcafdfc5}
+      \strng{authorfullhashraw}{87eb6c0756f9de59e1f0e548bcafdfc5}
       \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -1871,7 +1989,7 @@
       \verb 10.1088/2053-1583/3/4/045008
       \endverb
     \endentry
-    \entry{huberich-2025}{misc}{}
+    \entry{huberich-2025}{misc}{}{}
       \name{author}{14}{}{%
         {{hash=57f2d777fbf8f9bbe48c5a9e39e13555}{%
            family={Huberich},
@@ -1946,10 +2064,12 @@
       }
       \strng{namehash}{97e73a0bc7f8406d0f27a5d8a89c975a}
       \strng{fullhash}{08cee45d8dbd58d06df354432208828e}
+      \strng{fullhashraw}{08cee45d8dbd58d06df354432208828e}
       \strng{bibnamehash}{08cee45d8dbd58d06df354432208828e}
       \strng{authorbibnamehash}{08cee45d8dbd58d06df354432208828e}
       \strng{authornamehash}{97e73a0bc7f8406d0f27a5d8a89c975a}
       \strng{authorfullhash}{08cee45d8dbd58d06df354432208828e}
+      \strng{authorfullhashraw}{08cee45d8dbd58d06df354432208828e}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1961,7 +2081,7 @@
       \field{title}{Atomically-Resolved Exciton Emission from Single Defects in {{MoS}}\$\_2\$}
       \field{year}{2025}
     \endentry
-    \entry{robert-2021}{article}{}
+    \entry{robert-2021}{article}{}{}
       \name{author}{17}{}{%
         {{hash=a2d1e2c8f3501d5908f4a80611a1535d}{%
            family={Robert},
@@ -2054,10 +2174,12 @@
       }
       \strng{namehash}{a5562390140104d2b944cd6191d290aa}
       \strng{fullhash}{d08a8758dbb738bd32171b43c4faa922}
+      \strng{fullhashraw}{d08a8758dbb738bd32171b43c4faa922}
       \strng{bibnamehash}{a5562390140104d2b944cd6191d290aa}
       \strng{authorbibnamehash}{a5562390140104d2b944cd6191d290aa}
       \strng{authornamehash}{a5562390140104d2b944cd6191d290aa}
       \strng{authorfullhash}{d08a8758dbb738bd32171b43c4faa922}
+      \strng{authorfullhashraw}{d08a8758dbb738bd32171b43c4faa922}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
