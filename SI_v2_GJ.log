@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  16 DEC 2025 11:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  16 DEC 2025 15:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -825,11 +825,11 @@ Package pdftex.def Info: Figures/FigureS3.pdf  used on input line 71.
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Figures/FigureS3.pdf>]
-<Figures/FigureS4.pdf, id=51, 431.6125pt x 360.34625pt>
+<Figures/FigureS4.pdf, id=51, 431.6125pt x 359.3425pt>
 File: Figures/FigureS4.pdf Graphic file (type pdf)
 <use Figures/FigureS4.pdf>
 Package pdftex.def Info: Figures/FigureS4.pdf  used on input line 86.
-(pdftex.def)             Requested size: 375.80544pt x 313.76263pt.
+(pdftex.def)             Requested size: 375.80544pt x 312.88863pt.
 <Figures/membrane2.pdf, id=52, 500.87125pt x 219.82124pt>
 File: Figures/membrane2.pdf Graphic file (type pdf)
 <use Figures/membrane2.pdf>
@@ -888,7 +888,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,6n,105p,874b,1268s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on ./SI_v2_GJ.pdf (7 pages, 1328934 bytes).
+Output written on ./SI_v2_GJ.pdf (7 pages, 1328951 bytes).
 PDF statistics:
  295 PDF objects out of 1000 (max. 8388607)
  161 compressed objects within 2 object streams
