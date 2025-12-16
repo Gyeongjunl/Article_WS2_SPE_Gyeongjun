@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  15 DEC 2025 15:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  16 DEC 2025 11:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -830,11 +830,11 @@ File: Figures/FigureS4.pdf Graphic file (type pdf)
 <use Figures/FigureS4.pdf>
 Package pdftex.def Info: Figures/FigureS4.pdf  used on input line 86.
 (pdftex.def)             Requested size: 375.80544pt x 313.76263pt.
-<Figures/membrane.pdf, id=52, 686.565pt x 308.15125pt>
-File: Figures/membrane.pdf Graphic file (type pdf)
-<use Figures/membrane.pdf>
-Package pdftex.def Info: Figures/membrane.pdf  used on input line 95.
-(pdftex.def)             Requested size: 375.80544pt x 168.67026pt.
+<Figures/membrane2.pdf, id=52, 500.87125pt x 219.82124pt>
+File: Figures/membrane2.pdf Graphic file (type pdf)
+<use Figures/membrane2.pdf>
+Package pdftex.def Info: Figures/membrane2.pdf  used on input line 95.
+(pdftex.def)             Requested size: 375.80544pt x 164.9393pt.
 
 
 [2 <./Figures/FigureS4.pdf>]
@@ -850,7 +850,7 @@ Package pdftex.def Info: Figures/FigureS2.pdf  used on input line 119.
 (pdftex.def)             Requested size: 375.80544pt x 161.74454pt.
 
 
-[3 <./Figures/membrane.pdf> <./Figures/membrane_hole.pdf>]
+[3 <./Figures/membrane2.pdf> <./Figures/membrane_hole.pdf>]
 <Figures/FigureS5.pdf, id=118, 587.19376pt x 426.59375pt>
 File: Figures/FigureS5.pdf Graphic file (type pdf)
 <use Figures/FigureS5.pdf>
@@ -881,14 +881,14 @@ Package logreq Info: Writing requests to 'SI_v2_GJ.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  24005 strings out of 473190
- 494665 string characters out of 5715799
+ 494672 string characters out of 5715799
  1320776 words of memory out of 5000000
  46904 multiletter control sequences out of 15000+600000
  572548 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,6n,105p,874b,1268s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on ./SI_v2_GJ.pdf (7 pages, 1582759 bytes).
+Output written on ./SI_v2_GJ.pdf (7 pages, 1328934 bytes).
 PDF statistics:
  295 PDF objects out of 1000 (max. 8388607)
  161 compressed objects within 2 object streams
